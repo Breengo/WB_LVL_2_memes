@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Мемы</h1>
+    <canvas id="canv"> </canvas>
+    <div id="text_manager">
+      <input placeholder="Введите текст" class="input" type="text" />
+      <input class="color_picker" placeholder="Цвет" type="color" />
+      <p id="fontSize">
+        <span class="font_arrow" id="fontUp"></span>
+        <span id="fontValue">60</span>
+        <span class="font_arrow" id="fontDown"></span>
+      </p>
+      <button>Добавить</button>
+    </div>
+    <input class="input" id="file_input" type="file" />
+    <button id="download">Скачать</button>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
